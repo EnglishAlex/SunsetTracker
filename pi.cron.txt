@@ -1,0 +1,8 @@
+# Add these entries to your cron tab
+# clean the screen 00:05 , removed shadow and residual images
+# every 5 minutes between 7am an 6pm render the screen
+# at 1 minute after 7pm display the calendar since it's now after sunset.
+# m h  dom mon dow   command
+0 5 * * * cd /home/pi/Pimoroni/inky/examples/ ; ./clean.py --type phat --colour red --number 10 > clean-log 2>&1
+*/5 7-18 * * * /home/pi/sunrise.py > sunrise.log 2>&1
+1 19 * * * cd /home/pi/Pimoroni/inky/examples/phat/ ; ./calendar-phat.py --colour red > calendar.log 2>&1
