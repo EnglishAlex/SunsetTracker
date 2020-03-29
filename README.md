@@ -2,15 +2,17 @@
 Track the day's progress and time to sunset using the [Pimoroni InkyPhat](https://shop.pimoroni.com/products/inky-phat)
 
 - It take a long 2 or 3 seconds to render the InkyPhat display making development slow.
-- With a bit of hacking you can simulate the InkyPhat inside a jupyter notebook.
-- This made it quick and easy to learn how to use the Python Image Library "PIL"
+- With a bit of hacking you can simulate the InkyPhat inside a jupyter notebook and speed up development.
+- Inside a notebook its quick and easy to learn how to use the Python Image Library "PIL" and try out your code.
 - Working example in `sunset_timer.ipynb`
 
+## Virtual InkyPhat
 ![virtual_inkyphat](./images/virtual_inkyphat.png)
 
-## getting started
+## How to user
 - install the Inky-Phat, run the examples know that it's working.
 - running  `sunrise.py` opens the ``sunrise2020.csv`` reads the sunrise/set times and renders the InkyPhat.
+- Set the crontab to run script every few minutes [pi.cron.txt](./pi.cron.txt)
 
 ![SunTracker](./images/SunTracker.jpeg)
 
