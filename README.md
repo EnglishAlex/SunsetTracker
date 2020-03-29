@@ -12,10 +12,10 @@ Track the day's progress and time to sunset using the [Pimoroni InkyPhat](https:
 - install the Inky-Phat, run the examples know that it's working.
 - running  `sunrise.py` opens the ``sunrise2020.csv`` reads the sunrise/set times and renders the InkyPhat.
 
-![SunTracker](./SunTracker.jpeg)
+![SunTracker](./images/SunTracker.jpeg)
 
 ## looks good on your desktop
-![Sun Tracker in action](./inkyphat-on-pi.jpeg)
+![Sun Tracker in action](./images/inkyphat-on-pi.jpeg)
 
 ## improvments
 - [ ] explain how to generate your own sunrise sunset times from [timeanddate.com](https://www.timeanddate.com/sun/uk/london?month=1&year=2020)
