@@ -1,3 +1,7 @@
+
+![SunTracker](./images/SunTracker.jpeg)
+
+
 # SunsetTracker
 Track the day's progress and time to sunset using the [Pimoroni InkyPhat](https://shop.pimoroni.com/products/inky-phat)
 
@@ -9,19 +13,19 @@ Track the day's progress and time to sunset using the [Pimoroni InkyPhat](https:
 ## Virtual InkyPhat
 ![virtual_inkyphat](./images/virtual_inkyphat.png)
 
-## How to user
-- install the Inky-Phat, run the examples know that it's working.
+## How to use
+- install the Inky-Phat, run the examples to know that it's working.
+- clone this code to your pi i.e. ``git clone https://github.com/EnglishAlex/SunsetTracker.git``
 - running  `sunrise.py` opens the ``sunrise2020.csv`` reads the sunrise/set times and renders the InkyPhat.
 - Set the crontab to run script every few minutes [pi.cron.txt](./pi.cron.txt)
 
-![SunTracker](./images/SunTracker.jpeg)
-
-## looks good on your desktop
+## smart addition to your Pi
 ![Sun Tracker in action](./images/inkyphat-on-pi.jpeg)
 
 ## improvments
 - [ ] explain how to generate your own sunrise sunset times from [timeanddate.com](https://www.timeanddate.com/sun/uk/london?month=1&year=2020)
 - [ ] Use API to fetch sunrise/sunset for your location
+- [ ] make it interactive with [buttons](https://shop.pimoroni.com/products/button-shim)
 - [ ] tidy the code a lot.
 - [ ] better explanations of how it works
 
