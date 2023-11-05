@@ -3,5 +3,8 @@
 		{
 			"path": "/Users/alex/Documents/code/SunsetTracker"
 		}
-	]
+	],
+	"settings": {
+		"python.pythonPath": "/opt/anaconda3/bin/python3"
+	}
 }
